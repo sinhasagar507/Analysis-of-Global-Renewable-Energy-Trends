@@ -13,3 +13,9 @@
 
 1. [Analysis and Estimation of Global Energy Consumption](https://github.com/krishna-aditi/analysis-and-estimation-of-global-energy-consumption)
 2. [Renewable Energy over World](https://github.com/kdaltayli/Renewable-Energy-over-World)
+
+## Energy Consumption and Production  
+1. https://ourworldindata.org/energy-mix - Consumption 
+2. https://ourworldindata.org/electricity-mix - Production
+
+## Investments (TBA) 
