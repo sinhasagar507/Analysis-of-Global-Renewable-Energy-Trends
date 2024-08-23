@@ -1,2 +1,5 @@
-# CSE_578_Portfolio
-CSE578 Data Visualization portfolio project on analysis of global renewable energy trends 
+# Analysis and Visualization of Global Renewable Energy Trends
+
+## Objective 
+
+- To analyze global renewable energy data and identify trends.
