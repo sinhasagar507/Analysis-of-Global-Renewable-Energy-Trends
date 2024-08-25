@@ -24,11 +24,22 @@ The datasets covered:
 
 
 ### Data Analysis 
+The analysis included various statistical and visualization techniques to extract insights from the data:
+  - **Box Plots**: Used to visualize data distribution and identify outliers in key numerical variables.
+  - **Trend Analysis**: Time series analysis to identify trends in renewable energy consumption and production from 2000 to 2022.
+  - **Correlation Analysis**: Heatmaps were used to visualize the correlation between different renewable energy sources.
+  - **Geospatial Analysis**: Choropleth maps were used to highlight regional disparities in renewable energy consumption, production, and adoption.
 
-1. 
+### Visualization
+A range of visualizations was created to effectively communicate the insights gained from the analysis:
+- **Line Graphs**: Depicting trends in renewable energy consumption over time.
+- **Bar Charts**: Comparing renewable energy consumption and production by country.
+- **Pie Charts**: Showing the share of different renewable energy sources in the overall energy mix.
+- **Box Plots**: Visualizing the distribution and outliers of key renewable energy variables.
+- **Choropleth Maps**: Highlighting regional disparities in renewable energy adoption. 
 
 
-
+  
 
 
 
