@@ -1,94 +1,60 @@
-# Terrorism Analysis Project
+## Analysis and Visualization of Global Renewable Energy Trends
 
-## Objective
+### Objective 
+- To analyze global renewable energy data and identify trends
+- To visualize the growth rate of different renewable energy sources (solar, wind, hydroelectric) in various countries
+- To highlight challenges and opportunities in renewable energy adoption globally
 
-- To analyze terrorist activities in South Asia and identify significant patterns and trends.
-- To cluster terrorist incidents based on various factors to provide deeper insights into terrorism in the region.
-- To combine and analyze data from multiple sources to create a comprehensive understanding of terrorism-related incidents.
+### Introduction 
+In the face of escalating climate change and energy security concerns, adopting renewable energy sources is crucial for sustainable development. This project provides a comprehensive analysis of global renewable energy trends using various datasets on production, consumption, and investments. The analysis spans from 2000 to 2022, providing insights into the growth of renewable energy, regional disparities, and the impact on global economies
 
-## Introduction
+### Data Collection 
+The primary data sources used in this project include:
+  - **OWID (Our World in Data) Energy Dataset**: This dataset provided comprehensive information on global energy consumption and production across various renewable sources. 
+  - **Investment Data**: Additional data on financial investments in renewable energy technologies and infrastructure were sourced from publicly available datasets.
+The datasets covered:
+  - **Energy Consumption**: Solar, wind, hydroelectric, and biofuel energy consumption.
+  - **Energy Production**: Production data for these renewable energy sources across   
+    different countries.
+  - **Investments**: Financial investments in renewable energy technologies and 
+    infrastructure.
 
-Terrorism remains a significant challenge in South Asia, impacting political stability, economic development, and social cohesion. This project aims to analyze data on terrorist incidents in the region, focusing on identifying key trends, patterns, and clusters that can inform counter-terrorism strategies. The project utilizes multiple datasets and employs various analytical techniques to provide a comprehensive view of terrorism in South Asia.
+### Data Analysis 
+The analysis included various statistical and visualization techniques to extract insights from the data:
+  - **Box Plots**: Used to visualize data distribution and identify outliers in key numerical variables.
+  - **Trend Analysis**: Time series analysis to identify trends in renewable energy consumption and production from 2000 to 2022.
+  - **Correlation Analysis**: Heatmaps were used to visualize the correlation between different renewable energy sources.
+  - **Geospatial Analysis**: Choropleth maps were used to highlight regional disparities in renewable energy consumption, production, and adoption.
 
-## Data Collection
+### Visualization
+A range of visualizations was created to effectively communicate the insights gained from the analysis:
+- **Line Graphs**: Depicting trends in renewable energy consumption over time.
+- **Bar Charts**: Comparing renewable energy consumption and production by country.
+- **Pie Charts**: Showing the share of different renewable energy sources in the overall energy mix.
+- **Box Plots**: Visualizing the distribution and outliers of key renewable energy variables.
+- **Choropleth Maps**: Highlighting regional disparities in renewable energy adoption.
 
-### Sources and Datasets
-
-- **Global Terrorism Database (GTD):**
-  - A comprehensive dataset covering terrorist incidents worldwide, including details such as location, tactics, targets, and outcomes.
-
-- **South Asia Terrorism Database:**
-  - A specialized dataset focusing on terrorist activities in South Asia, including detailed information on incidents in countries like India, Pakistan, Afghanistan, and Sri Lanka.
-
-### Data Used in this Project
-
-- **GTD South Asia Dataset:** Focused on terrorist incidents in South Asia.
-- **Combined Analysis Data:** Merges various sources to provide a holistic view of terrorism-related incidents.
-- **Terrorist Clusters Data:** Utilized for clustering and identifying patterns in terrorist activities.
-
-## Data Analysis
-
-The analysis was conducted using Python and included the following steps:
-
-### Data Preprocessing
-
-- Cleaning and preprocessing of data to ensure consistency and accuracy.
-- Handling missing values and normalizing data for analysis.
-
-### Exploratory Data Analysis (EDA)
-
-- Statistical analysis to identify key trends and outliers.
-- Visualization of data to understand the distribution and relationships between variables.
-
-### Clustering Analysis
-
-- Implemented clustering algorithms to group terrorist incidents based on similarities.
-- Analysis of cluster characteristics to identify patterns in terrorist activities.
-
-### Trend Analysis
-
-- Time-series analysis to identify trends in terrorist activities over time.
-- Geospatial analysis to visualize the distribution of incidents across South Asia.
-
-## Visualization
-
-Various visualizations were created to effectively communicate the insights from the analysis:
-
-- **Line Graphs:** Depicting trends in terrorist incidents over time.
-- **Bar Charts:** Comparing the frequency of incidents by country and type of attack.
-- **Heatmaps:** Showing the intensity of terrorist activities in different regions.
-- **Scatter Plots:** Used for clustering analysis to visualize the grouping of incidents.
-
-## Results
-
+### Results 
 Key findings from the analysis include:
+- **Growth in Renewable Energy Consumption**: Significant growth in solar and wind energy consumption, driven by technological advances and cost reductions.
+- **Regional Disparities in Renewable Energy Adoption**: Countries like China, the US, Germany, and Brazil are leading in renewable energy adoption, while others lag behind.
+- **Correlation Between Renewable Energy Sources**: Positive correlations were found between sources like solar and wind energy.
+- **Investment Trends**: A global rise in renewable energy investments, particularly in Europe and Asia.
+- **Impact on GDP**: Increased renewable energy consumption is associated with GDP growth in countries like China, the US, and Germany.
 
-- **Increase in Terrorist Activities:** A noticeable increase in terrorist incidents in certain regions of South Asia over the past two decades.
-- **Clustering of Incidents:** Identified specific clusters of terrorist activities that share common characteristics, such as location, target type, and attack methods.
-- **Regional Disparities:** Significant differences in the frequency and type of terrorist incidents across different countries in South Asia.
-- **Temporal Patterns:** Identified seasonal and long-term trends in terrorist activities, which could be linked to political events or socio-economic conditions.
+### Lessons Learned
+This project underscored the importance of data cleaning for accurate analysis, the value of visualizations in communicating complex data insights, and the need for rigorous data manipulation techniques to handle large datasets effectively.
 
-## Lessons Learned
+### Challenges 
+- **Handling Large Datasets**: Efficiently managing and manipulating large datasets using Python’s Pandas library.
+- **Imputation of Missing Values**: Ensuring data integrity through the appropriate imputation of missing values using median and mode techniques.
 
-- **Data Quality:** The importance of thorough data cleaning and preprocessing was underscored to ensure accurate and meaningful analysis.
-- **Complexity of Terrorism:** The analysis highlighted the complexity of terrorist activities and the need for multidimensional analysis to understand the phenomenon fully.
-- **Visualization:** Visualizations were critical in uncovering patterns and communicating findings effectively.
+### Conclusion 
+The analysis provided valuable insights into the global trends in renewable energy, highlighting the progress made and the challenges that remain. The findings are intended to inform policymakers and stakeholders, guiding future policies and investment strategies for a sustainable energy future.
 
-## Challenges
+### Acknowledgments
+This work was conducted as part of the coursework at the School of Computing and Augmented Intelligence, Arizona State University. Special thanks to my team members and instructors for their guidance and support.
 
-- **Handling Large Datasets:** Managing and processing large datasets efficiently was a significant challenge.
-- **Clustering Complexity:** Choosing the appropriate clustering algorithm and tuning parameters to achieve meaningful groupings was complex and required extensive experimentation.
-- **Data Integration:** Combining data from multiple sources posed challenges due to differences in data formats and structures.
-
-## Conclusion
-
-This project provided valuable insights into the patterns and trends of terrorist activities in South Asia. The findings are intended to inform policymakers, security agencies, and researchers, aiding in the development of targeted counter-terrorism strategies.
-
-## Acknowledgments
-
-This work was conducted as part of a research project at the School of Computing and Augmented Intelligence, Arizona State University. Special thanks to my team members and instructors for their guidance and support.
-
-## References
-
-- Global Terrorism Database (GTD). National Consortium for the Study of Terrorism and Responses to Terrorism (START). Retrieved from: [https://www.start.umd.edu/gtd](https://www.start.umd.edu/gtd)
-- South Asia Terrorism Portal (SATP). Institute for Conflict Management. Retrieved from: [https://www.satp.org/](https://www.satp.org/)
+### References
+1. Hannah Ritchie, Pablo Rosado, Max Roser (2023). "Energy" Published online at OurWorldInData.org. Retrieved from: https://ourworldindata.org/energy
+2. IEA, World Energy Investment 2023 Datafile, IEA, Paris. Retrieved from: https://www.iea.org/data-and-statistics/data-product/world-energy-investment-2023-datafile-2
